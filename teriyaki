@@ -1,6 +1,6 @@
 #!/bin/bash
 PHONE_MAC="6c:56:40:38:4a:07"   # You can get phone's mac adress from status section in android settings.
-PHONE_KEY="~/.ssh/<YOUR_SECRET_KEY>"   # SSH secret key to use while connecting to phone.
+PHONE_KEY="~/.ssh/teriyaki_key"   # SSH secret key to use while connecting to phone.
 
 
 script=$(realpath "$0")
